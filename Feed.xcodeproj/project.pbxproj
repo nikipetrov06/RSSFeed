@@ -10,13 +10,13 @@
 		1CFC14663338C192B5B0B136 /* Pods_Feed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DA876267785616B0AB768B5 /* Pods_Feed.framework */; };
 		9914BDF92A7B94E600247AE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BDF82A7B94E600247AE5 /* AppDelegate.swift */; };
 		9914BDFB2A7B94E600247AE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BDFA2A7B94E600247AE5 /* SceneDelegate.swift */; };
-		9914BDFD2A7B94E600247AE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BDFC2A7B94E600247AE5 /* ViewController.swift */; };
 		9914BE0D2A7B958300247AE5 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE0C2A7B958300247AE5 /* Controller.swift */; };
 		9914BE0F2A7B958B00247AE5 /* NewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE0E2A7B958B00247AE5 /* NewCell.swift */; };
 		9914BE112A7B959500247AE5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE102A7B959500247AE5 /* RootViewController.swift */; };
 		9914BE132A7B959D00247AE5 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE122A7B959D00247AE5 /* ViewModel.swift */; };
 		9914BE152A7B95A600247AE5 /* RSSFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE142A7B95A600247AE5 /* RSSFeed.swift */; };
 		9914BE172A7B95B100247AE5 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9914BE162A7B95B100247AE5 /* DetailsView.swift */; };
+		9914BE192A7B964F00247AE5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 9914BE182A7B964F00247AE5 /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,6 @@
 		9914BDF52A7B94E600247AE5 /* Feed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Feed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9914BDF82A7B94E600247AE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9914BDFA2A7B94E600247AE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9914BDFC2A7B94E600247AE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9914BE062A7B94E700247AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9914BE0C2A7B958300247AE5 /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		9914BE0E2A7B958B00247AE5 /* NewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCell.swift; sourceTree = "<group>"; };
@@ -33,6 +32,7 @@
 		9914BE122A7B959D00247AE5 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9914BE142A7B95A600247AE5 /* RSSFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSFeed.swift; sourceTree = "<group>"; };
 		9914BE162A7B95B100247AE5 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		9914BE182A7B964F00247AE5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
 		D72E4D5BFF7DD3797FCC0FDC /* Pods-Feed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Feed.debug.xcconfig"; path = "Target Support Files/Pods-Feed/Pods-Feed.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,15 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				9914BDF82A7B94E600247AE5 /* AppDelegate.swift */,
-				9914BDFA2A7B94E600247AE5 /* SceneDelegate.swift */,
-				9914BDFC2A7B94E600247AE5 /* ViewController.swift */,
-				9914BE062A7B94E700247AE5 /* Info.plist */,
 				9914BE0C2A7B958300247AE5 /* Controller.swift */,
+				9914BE162A7B95B100247AE5 /* DetailsView.swift */,
+				9914BE062A7B94E700247AE5 /* Info.plist */,
 				9914BE0E2A7B958B00247AE5 /* NewCell.swift */,
 				9914BE102A7B959500247AE5 /* RootViewController.swift */,
-				9914BE122A7B959D00247AE5 /* ViewModel.swift */,
 				9914BE142A7B95A600247AE5 /* RSSFeed.swift */,
-				9914BE162A7B95B100247AE5 /* DetailsView.swift */,
+				9914BDFA2A7B94E600247AE5 /* SceneDelegate.swift */,
+				9914BE122A7B959D00247AE5 /* ViewModel.swift */,
+				9914BE182A7B964F00247AE5 /* Podfile */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -111,6 +111,7 @@
 				9914BDF12A7B94E600247AE5 /* Sources */,
 				9914BDF22A7B94E600247AE5 /* Frameworks */,
 				9914BDF32A7B94E600247AE5 /* Resources */,
+				6646CC87F0416D8C02DE674F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +160,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9914BE192A7B964F00247AE5 /* Podfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +189,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		6646CC87F0416D8C02DE674F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feed/Pods-Feed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Feed/Pods-Feed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Feed/Pods-Feed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -195,7 +214,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9914BE0F2A7B958B00247AE5 /* NewCell.swift in Sources */,
-				9914BDFD2A7B94E600247AE5 /* ViewController.swift in Sources */,
 				9914BE172A7B95B100247AE5 /* DetailsView.swift in Sources */,
 				9914BE112A7B959500247AE5 /* RootViewController.swift in Sources */,
 				9914BDF92A7B94E600247AE5 /* AppDelegate.swift in Sources */,
@@ -336,7 +354,6 @@
 				INFOPLIST_FILE = Feed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -365,7 +382,6 @@
 				INFOPLIST_FILE = Feed/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

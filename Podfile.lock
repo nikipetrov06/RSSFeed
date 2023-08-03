@@ -1,3 +1,28 @@
-PODFILE CHECKSUM: acc1c7a58464b70cb56ba3c259062021b4db3f2e
+PODS:
+  - Kingfisher (7.9.0)
+  - XMLParsing (0.0.3)
+
+DEPENDENCIES:
+  - Kingfisher (~> 7.0)
+  - XMLParsing (from `https://github.com/ShawnMoore/XMLParsing.git`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+
+EXTERNAL SOURCES:
+  XMLParsing:
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+CHECKOUT OPTIONS:
+  XMLParsing:
+    :commit: 594272e4df40798c53ae1735ee65f3f387291670
+    :git: https://github.com/ShawnMoore/XMLParsing.git
+
+SPEC CHECKSUMS:
+  Kingfisher: 59f908b6d2f403b0a3e539debb0eec05cb27002c
+  XMLParsing: 085edb6fa22c71d6b53a79299f990a91e7414d19
+
+PODFILE CHECKSUM: 1734b3f42f42be0a694a07853d60db4e73b3a898
 
 COCOAPODS: 1.11.2

@@ -6,5 +6,7 @@ target 'Feed' do
   use_frameworks!
 
   # Pods for Feed
+  pod 'XMLParsing', :git => 'https://github.com/ShawnMoore/XMLParsing.git'
+  pod 'Kingfisher', '~> 7.0'
 
 end

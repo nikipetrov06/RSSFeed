@@ -1,0 +1,19 @@
+# Xcode
+.DS_Store
+*.xcuserstate
+*.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# Swift Package Manager
+/.build
+
+# Swift/Xcode build files
+build/
+DerivedData/
+*.swiftdoc
+*.swiftmodule
+*.xcodeproj/*.pbxproj
+
+# CocoaPods
+Podfile.lock
+Pods/
